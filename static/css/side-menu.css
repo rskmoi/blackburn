@@ -56,7 +56,7 @@ The content `<div>` is where all your content goes.
  }
     .header h1 {
         margin: 0.2em 0;
-        font-size: 3em;
+        font-size: 2em;
         font-weight: 300;
     }
      .header h2 {
@@ -64,6 +64,7 @@ The content `<div>` is where all your content goes.
         color: #ccc;
         padding: 0;
         margin-top: 0;
+        font-size: 1.2em;
     }
 
 .content-subhead {
@@ -201,7 +202,10 @@ small screens.
             margin-top: 0.6em;
         }
 
-
+.license {
+    position: absolute;
+    bottom: 0;
+}
 /* -- Responsive Styles (Media Queries) ------------------------------------- */
 
 /*
